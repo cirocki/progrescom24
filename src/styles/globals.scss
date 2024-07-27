@@ -1,0 +1,36 @@
+@import "./variables.scss";
+@import url("https://use.typekit.net/tgl1ogd.css");
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: $font-family-second;
+}
+main {
+  flex: 1;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: $font-weight-400;
+}
+
+h1,
+h2 {
+  font-size: rem(60) !important;
+  max-width: 30ch;
+}
+
+h2 {
+  font-family: $font-family-second;
+}
+
+p {
+  font-size: rem(22);
+  max-width: 60ch;
+}
